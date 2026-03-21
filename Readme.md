@@ -1,7 +1,7 @@
 
 # Anurag Dubey
 
-Software Engineer at Visa
+Software Engineer
 Backend Systems | Java, Spring Boot, FastAPI
 LLM Systems | Agentic RAG, LangChain
 

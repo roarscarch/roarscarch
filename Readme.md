@@ -21,16 +21,18 @@ Backend engineer building scalable systems and LLM-powered applications. Special
 ## Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=roarscarch&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=roarscarch&layout=compact&theme=github_dark&hide_border=true" />
+  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=roarscarch&show_icons=true&theme=dark&hide_border=true" />
+  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=roarscarch&layout=compact&theme=dark&hide_border=true" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=roarscarch&theme=dark&hide_border=true" />
 </div>
 
 ---
 
-## Achievements
+## Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=roarscarch&theme=darkhub&no-frame=true&margin-w=5&column=6" />
+  <img src="https://github-trophies.vercel.app/?username=roarscarch&row=2&column=4&theme=algolia&no-frame=true" />
 </div>
 
 ---

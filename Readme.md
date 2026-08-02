@@ -54,6 +54,5 @@ Backend engineer building scalable systems and LLM-powered applications. Special
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=roarscarch&style=flat-square&color=blue" />
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=roarscarch.roarscarch" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=roarscarch.roarscarch&color=blue" />
 </div>

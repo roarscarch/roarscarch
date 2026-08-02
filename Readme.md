@@ -1,62 +1,56 @@
-
-# Anurag
-
-Software Engineer
-Backend Systems | Java, Spring Boot, FastAPI
-LLM Systems | Agentic RAG, LangChain
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Anurag+%F0%9F%91%8B;Software+Engineer;Backend+%7C+LLM+Systems" alt="Typing SVG" />
+</div>
 
 ---
 
-## Overview
+## About Me
 
-Backend engineer with experience in building scalable systems and LLM-powered applications.
-Worked on CI/CD pipelines, distributed systems, and retrieval-based AI architectures.
+Backend engineer building scalable systems and LLM-powered applications. Specialist at Codeforces, Knight at Leetcode. Working with Java, Spring Boot, FastAPI, and agentic RAG architectures.
 
 ---
 
-## Core Skills
+## Skills
 
-**Backend**
-Java, Spring Boot, FastAPI, Node.js
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,python,spring,fastapi,nodejs,postgres,redis,docker,kubernetes,aws,linux,git,githubactions,jenkins&perline=7" />
+</p>
 
-**LLM / AI Systems**
-Agentic RAG, LangChain, LangSmith, Prompt Engineering
+---
 
-**Data Layer**
-PostgreSQL, Redis, Vector Databases, Graph Databases
+## Stats
 
-**Infrastructure**
-Docker, Kubernetes, Jenkins, Helm, AWS
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=roarscarch&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=roarscarch&layout=compact&theme=github_dark&hide_border=true" />
+</div>
+
+---
+
+## Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=roarscarch&theme=darkhub&no-frame=true&margin-w=5&column=6" />
+</div>
 
 ---
 
 ## Selected Work
 
 **LLM-based Retrieval System**
-
-* Built Agentic RAG pipeline using LangChain
-* Integrated vector database for semantic retrieval
-* Designed multi-step reasoning workflows
+- Agentic RAG pipeline with LangChain + vector DB
+- Multi-step reasoning with LangSmith tracing
 
 **Real-time Collaborative Code Editor**
-
-* WebSocket-based architecture for multi-user editing
-* Low-latency synchronization
+- WebSocket architecture for multi-user sync
+- Low-latency CRDT-based conflict resolution
 
 **Performance Testing Platform**
-
-* Distributed load testing using JMeter + Kubernetes
-* Automated reporting and analysis
-
----
-
-## GitHub
-
-![Stats](https://github-readme-stats.vercel.app/api?username=roarscarch\&show_icons=true\&hide_border=true)
-![Streak](https://streak-stats.demolab.com?user=roarscarch\&hide_border=true)
+- Distributed JMeter on Kubernetes
+- Automated analytics & reporting
 
 ---
 
-## Stack
-
-![Skills](https://skillicons.dev/icons?i=java,python,spring,fastapi,nodejs,postgres,redis,docker,kubernetes,aws,linux)
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=roarscarch&style=flat-square&color=blue" alt="Profile views" />
+</div>

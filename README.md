@@ -56,6 +56,18 @@ I care about the boring parts: idempotency, backpressure, retries, traces, and i
   </a>
 </div>
 
+<details>
+<summary><sub>Project index — text version</sub></summary>
+
+- **Agentic Pod** · Kubernetes-native autonomous diagnostic agent built on a LangGraph ReAct loop. `Kubernetes` `LangGraph` `Python`
+- **Agentic RAG** · Production-grade ingestion and retrieval pipeline with multi-step reasoning and tracing. `Vector DB` `FastAPI` `LangSmith`
+- **Kafka Food Delivery** · Event-driven delivery backbone designed for scale, resilience and decoupling. `Kafka` `Java` `Redis`
+- **termtree** · ASCII-art git branch visualizer that turns tangled history into an instant mental model. `Rust` `CLI`
+- **repograph** · Interactive graph of commit history and authorship. `TypeScript` `D3` `Node`
+- **Diffusion Music Box** · Endless evolving ambient music from a tiny diffusion model on spectrograms. `Python` `PyTorch` `Audio`
+
+</details>
+
 ## 04 — TELEMETRY
 
 <div align="center">

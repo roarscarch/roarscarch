@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Reference architecture: client to gateway, services, Kafka, agents and a vector database">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04060c"/>
+      <stop offset="1" stop-color="#080e1c"/>
+    </linearGradient>
+    <radialGradient id="aglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="agrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#121d30" stroke-width="1" opacity="0.6"/>
+    </pattern>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L6,3.5 L0,7" fill="none" stroke="#2f4a72" stroke-width="1"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#abg)"/>
+  <rect width="1200" height="340" fill="url(#agrid)" opacity="0.5"/>
+  <circle cx="600" cy="170" r="420" fill="url(#aglow)" opacity="0.5"/>
+
+  <text x="60" y="56" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00e5ff" letter-spacing="3">// REFERENCE ARCHITECTURE</text>
+  <text x="60" y="92" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" fill="#e8f1ff">How I wire systems end to end</text>
+  <text x="60" y="116" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#6f86a6">request -&gt; decision -&gt; action, observable at every hop</text>
+
+  <g>
+    <line x1="171" y1="190" x2="237" y2="190" stroke="#1e2e48" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <circle r="2.5" fill="#00e5ff">
+      <animateMotion path="M171,190 L237,190" dur="2.4s" begin="0.0s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <line x1="369" y1="190" x2="435" y2="190" stroke="#1e2e48" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <circle r="2.5" fill="#8b5cf6">
+      <animateMotion path="M369,190 L435,190" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <line x1="567" y1="190" x2="633" y2="190" stroke="#1e2e48" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <circle r="2.5" fill="#00e5ff">
+      <animateMotion path="M567,190 L633,190" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <line x1="765" y1="190" x2="831" y2="190" stroke="#1e2e48" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <circle r="2.5" fill="#8b5cf6">
+      <animateMotion path="M765,190 L831,190" dur="2.4s" begin="1.2000000000000002s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <line x1="963" y1="190" x2="1029" y2="190" stroke="#1e2e48" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <circle r="2.5" fill="#00e5ff">
+      <animateMotion path="M963,190 L1029,190" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <text x="105" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#42566f" letter-spacing="2">01</text>
+    <rect x="39" y="157" width="132" height="66" rx="10" fill="#0a1120" stroke="#16233b"/>
+    <line x1="57" y1="157" x2="153" y2="157" stroke="#00e5ff" stroke-width="2" opacity="0.85"/>
+    <text x="105" y="187" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e8f1ff" letter-spacing="0.3">CLIENT</text>
+    <text x="105" y="205" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6f86a6" letter-spacing="0.3">web / mobile</text>
+    <circle cx="171" cy="157" r="2.5" fill="#00e5ff" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0.0s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <text x="303" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#42566f" letter-spacing="2">02</text>
+    <rect x="237" y="157" width="132" height="66" rx="10" fill="#0a1120" stroke="#16233b"/>
+    <line x1="255" y1="157" x2="351" y2="157" stroke="#8b5cf6" stroke-width="2" opacity="0.85"/>
+    <text x="303" y="187" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e8f1ff" letter-spacing="0.3">GATEWAY</text>
+    <text x="303" y="205" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6f86a6" letter-spacing="0.3">auth / limits</text>
+    <circle cx="369" cy="157" r="2.5" fill="#8b5cf6" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <text x="501" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#42566f" letter-spacing="2">03</text>
+    <rect x="435" y="157" width="132" height="66" rx="10" fill="#0a1120" stroke="#16233b"/>
+    <line x1="453" y1="157" x2="549" y2="157" stroke="#00e5ff" stroke-width="2" opacity="0.85"/>
+    <text x="501" y="187" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e8f1ff" letter-spacing="0.3">SERVICES</text>
+    <text x="501" y="205" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6f86a6" letter-spacing="0.3">java / python</text>
+    <circle cx="567" cy="157" r="2.5" fill="#00e5ff" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" begin="1.0s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <text x="699" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#42566f" letter-spacing="2">04</text>
+    <rect x="633" y="157" width="132" height="66" rx="10" fill="#0a1120" stroke="#16233b"/>
+    <line x1="651" y1="157" x2="747" y2="157" stroke="#8b5cf6" stroke-width="2" opacity="0.85"/>
+    <text x="699" y="187" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e8f1ff" letter-spacing="0.3">KAFKA</text>
+    <text x="699" y="205" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6f86a6" letter-spacing="0.3">event bus</text>
+    <circle cx="765" cy="157" r="2.5" fill="#8b5cf6" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <text x="897" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#42566f" letter-spacing="2">05</text>
+    <rect x="831" y="157" width="132" height="66" rx="10" fill="#0a1120" stroke="#16233b"/>
+    <line x1="849" y1="157" x2="945" y2="157" stroke="#00e5ff" stroke-width="2" opacity="0.85"/>
+    <text x="897" y="187" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e8f1ff" letter-spacing="0.3">AGENTS</text>
+    <text x="897" y="205" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6f86a6" letter-spacing="0.3">langgraph</text>
+    <circle cx="963" cy="157" r="2.5" fill="#00e5ff" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" begin="2.0s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <text x="1095" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#42566f" letter-spacing="2">06</text>
+    <rect x="1029" y="157" width="132" height="66" rx="10" fill="#0a1120" stroke="#16233b"/>
+    <line x1="1047" y1="157" x2="1143" y2="157" stroke="#8b5cf6" stroke-width="2" opacity="0.85"/>
+    <text x="1095" y="187" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e8f1ff" letter-spacing="0.3">VECTOR DB</text>
+    <text x="1095" y="205" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6f86a6" letter-spacing="0.3">retrieval</text>
+    <circle cx="1161" cy="157" r="2.5" fill="#8b5cf6" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" begin="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <line x1="60" y1="262" x2="1140" y2="262" stroke="#16233b" stroke-width="1"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.2">
+    <text x="60" y="292" fill="#42566f">DELIVERY</text>
+    <text x="146" y="292" fill="#8aa0bd">Docker / Kubernetes / GitHub Actions / AWS</text>
+    <text x="618" y="292" fill="#42566f">SIGNALS</text>
+    <text x="696" y="292" fill="#8aa0bd">Prometheus / Grafana / OpenTelemetry</text>
+    <text x="60" y="314" fill="#42566f">DESIGN</text>
+    <text x="146" y="314" fill="#8aa0bd">idempotent / observable / event-driven / guardrailed</text>
+  </g>
+</svg>

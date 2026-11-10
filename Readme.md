@@ -59,10 +59,10 @@ I care about the boring parts: idempotency, backpressure, retries, traces, and i
 ## 04 — TELEMETRY
 
 <div align="center">
-  <img src="https://ghchart.rshah.org/00E5FF/roarscarch" width="100%" alt="GitHub contribution graph" />
+  <img src="./assets/contributions.svg" width="100%" alt="GitHub contribution telemetry" />
 </div>
 
-<sub>A year of commits, reviews, refactors and the occasional 2 a.m. revelation.</sub>
+<sub>A year of commits, reviews, refactors and the occasional 2 a.m. revelation. This card refreshes itself every night.</sub>
 
 ## 05 — SIGNAL
 
